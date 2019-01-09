@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title> Home </title>
+<!--links to main js used for slideshow and stylesheet-->
+<script type="text/javascript" src="JS/main.js"></script>
+<link rel = "stylesheet" type="text/css" href="CSS/css.css">
+</head>
+<body>
+<!--section containing header-->
+<section id = "header">
+	<!--main title in header is linked to homepage-->
+<a href="index.html">
+	<div id="title">MUMFORD & SONS</div>
+</a>
+<!--wide navigation bar is used for widescreen and 50% screen/tablet view-->
+<nav id = "navigationbar">
+	<ul>
+		<li>
+			<!---->
+		 <a class = "navigation active" href="index.html">Home</a>
+		</li>
+		<li class = "divider">|</li>
+		<li>
+		 <a class = "navigation" href="Band.html">The Band</a>
+		</li> 
+		<li class = "divider">|</li>
+		<li>
+		 <a class = "navigation" href="Albums.html">Albums</a>
+		</li> 
+		<li class = "divider">|</li>
+		<li>
+		 <a class = "navigation" href="TourDates.html">Tour Dates</a>
+		</li> 
+		<li class = "divider">|</li>
+		<li>
+		 <a class = "navigation" href="Merch.html">Merch</a>
+		</li> 
+	</ul>
+	
+</nav>
+<!--hamburgermenu is used for small screens-->
+<div id="HamburgerMenu">
+	<a href="Menu.html">
+		<div class="MenuBar"></div>
+		<div class="MenuBar"></div>
+		<div class="MenuBar"></div>
+	</a>
+</div>
+</section>
+<!-- maincolum wraps all page content and keeps it alligned and centered during widescreen use -->
+<section class="MainColumn">
+	<!-- this sections contains slideshow
+		slideshow functions in all browsers, except explorer	
+	-->
+	<section id="slideshow">
+		<div id="slideshowContainer">
+			<div class="mySlides fade">
+				<img src="Assets/Slideshow1.jpg" alt="image" class="slideshowImage"/>
+			</div>
+			<div class="mySlides fade">
+				<img src="Assets/Slideshow2.jpg" alt="image" class="slideshowImage"/>
+			</div>
+			<div class="mySlides fade">
+				<img src="Assets/Slideshow3.jpg" alt="image" class="slideshowImage"/>
+			</div>
+			<div class="mySlides fade">
+					<img src="Assets/Slideshow4.jpg" alt="image" class="slideshowImage"/>
+			</div>
+			<!-- buttons at either side of image-->	
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+			
+	</section>
+	<div style="text-align:center">
+		<!-- slideshow dots allowing jump to prefered image-->
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+			<span class="dot" onclick="currentSlide(4)"></span> 
+		  </div>
+	<section class="Overview">
+	<div class = "container1">
+	<a href="Band.html"><h1 id="Band_Title" class="zoom">MEET THE BAND</h1></a>
+	<div id="Band_Row">
+		<!--profile section wraps all content relater to each band member-->
+		<div class="Profile">
+			<div class="PictureBox">
+				<!--image and name link to bio page-->
+				<a href="Band.html">
+					<div class="ProfilePictureBox zoom">
+						<img src="Assets/Marcus1.jpg" alt="Marcus Mumford" class="ProfilePicture "/>
+						<!-- overlay shows each members role in the group-->
+						<div class="ProfileOverlay">
+							<p class="BandRoles">Lead vocals <br> Electric guitar <br> Acoustic guitar <br> Drums</p>
+						</div> 
+					</div>
+					<div class="NameBox">
+						<h2 class="MemberName zoom">Marcus <br> Mumford</h2>
+					</div>
+				</a>	
+			</div>
+		</div>
+		<div class="Profile">
+			<div class="PictureBox">
+				<a href="Band.html">
+					<div class="ProfilePictureBox zoom">
+						<img src="Assets/Winston1.jpg" alt="Winston Marshall" class="ProfilePicture "/>
+						<div class="ProfileOverlay">
+						<p class="BandRoles">Vocals <br> Electric guitar <br> Banjo</p>
+						</div>
+					</div>					
+					<div class="NameBox">
+						<h2 class="MemberName zoom">Winston <br> Marshall</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="Profile">
+			<div class="PictureBox">
+				<a href="Band.html">
+					<div class="ProfilePictureBox zoom">
+						<img src="Assets/Ben1.jpeg" alt="Ben Lovett" class="ProfilePicture "/>
+						<div class="ProfileOverlay">
+						<p class="BandRoles">Vocals <br> Keyboard <br> Synthesizer <br> Piano </p>
+						</div>
+					</div>					
+					<div class="NameBox">
+						<h2 class="MemberName zoom">Ben <br> Lovett</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="Profile">
+			<div class="PictureBox">
+				<a href="Band.html">
+					<div class="ProfilePictureBox zoom">
+						<img src="Assets/Ted1.jpg" alt="Ted Dwane" class="ProfilePicture "/>
+						<div class="ProfileOverlay">
+							<p class="BandRoles">Vocals <br> Bass guitar <br> Double bass</p>
+						</div>
+					</div>					
+					<div class="NameBox">
+						<h2 class="MemberName zoom">Ted <br> Dwane</h2>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>	
+</section>
+<section class="AlbumOverview">
+<div class = "container1">
+	<!--this section contains each alubum and is linked to album page-->
+	<a href="Albums.html"><h1 id="Album_Title" class="zoom">ALBUMS</h1></a>
+	<div id="Album_Row">
+		<div class="Album">
+			<div class="AlbumBox">
+				<!--image is also linked-->
+				<a href="Albums.html">
+					<img src="Assets/Delta.jpg"  alt="Delta" class="AlbumPicture shrink"/>
+					<h2 class="AlbumName zoom" >Delta</h2>
+				</a>
+			</div>
+		</div>
+		<div class="Album">
+			<div class="AlbumBox">
+				<a href="Albums.html">
+					<img src="Assets/Johannesburg.jpg"  alt="Johannesburg" class="AlbumPicture shrink"/>
+					<h2 class="AlbumName zoom">Johannesburg</h2>
+				</a>
+			</div>
+		</div>
+		<div class="Album">
+			<div class="AlbumBox">
+				<a href="Albums.html">
+					<img src="Assets/Wilder Mind.jpg"  alt="Wilder Mind" class="AlbumPicture shrink"/>
+					<h2 class="AlbumName zoom">Wilder Mind</h2>
+				</a>
+			</div>
+		</div>
+		<div class="Album">
+			<div class="AlbumBox">
+				<a href="Albums.html">
+					<img src="Assets/Babel.jpg"  alt="Babel" class="AlbumPicture shrink"/>
+					<h2 class="AlbumName zoom">Babel</h2>
+				</a>
+			</div>
+		</div>
+		<div class="Album">
+			<div class="AlbumBox">
+				<a href="Albums.html">
+					<img src="Assets/Sigh no more.jpg"  alt="Sigh No More" class="AlbumPicture shrink"/>
+					<h2 class="AlbumName zoom">Sigh No More</h2>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>	
+</section>
+<section class="TourOverview1">
+<div class = "TourContainer1">
+	<img src="Assets/MS LIVE2.png" alt="Live" id="TourImage"/>
+	<a href="TourDates.html">
+		<h1 id="Tour_Title" class="zoom">TOUR DATES</h1>
+		<h2 id="Tickets">BOOK TICKETS NOW!</h2>
+	</a>
+</div>	
+</section>
+<!-- section shows off a few logos-->
+<section class="MerchOverview">
+	<div class = "container1">
+		<a href="Merch.html">
+			<h1 id="Merch_Title" class="zoom">MERCH</h1>
+			<h2 id="Merch">MAKE YOUR OWN ALBUM COVER</h2>
+			<img src="Assets/Logo1.jpg" alt="image" id="Merch1" class="shrink"/>
+			<img src="Assets/Logo6.jpg" alt="image" id="Merch2" class="shrink"/>
+			<img src="Assets/Logo5.jpg" alt="image" id="Merch3" class="shrink"/>
+		</a>
+	</div>	
+</section>	
+<!-- section contains demo vid-->
+	<section class="DemoOverview">
+	<div class = "container1">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/owY7zS7VzKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	
+</section>
+
+</section>
+	
+<section id = "footer">
+</section>
+	
+</body>
+</html>
