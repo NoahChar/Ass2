@@ -727,9 +727,9 @@ li{
 
 
 
-/*this section is for viewports between 901px and 1499px
+/*this section is for viewports between 1000px and 1499px
 this css will be used when website is viewed on a tablet or when using 50% of the monitor*/
-@media screen and (min-width: 901px) and (max-width: 1499px){
+@media screen and (min-width: 1000px) and (max-width: 1499px){
 	/*css that applies to every page */
 body{
 	margin: 0;
@@ -1434,9 +1434,9 @@ li{
 
 
 
-/*this section is for viewports smaller than 900px
+/*this section is for viewports smaller than 999px
 this means all hand held devices*/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 999px){
 	/*css that applies to every page */
 body{
 	margin: 0;
