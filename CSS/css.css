@@ -813,7 +813,7 @@ li{
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
-	top: 35%;
+	top: 25%;
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
