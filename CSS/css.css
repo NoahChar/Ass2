@@ -1436,7 +1436,7 @@ li{
 
 /*this section is for viewports smaller than 959px
 this means all hand held devices*/
-@media screen and (max-width: 959px){
+@media screen and (max-height: 700px){
 	/*css that applies to every page */
 body{
 	margin: 0;
