@@ -1438,8 +1438,8 @@ li{
 this means all hand held devices*/
 @media only screen 
 and (max-device-width : 667px) 
-and (orientation : portrait) { /* STYLES GO HERE */ }
-	/*css that applies to every page */
+and (orientation : portrait) {
+/*css that applies to every page */	
 body{
 	margin: 0;
 	padding: 0;
@@ -2112,3 +2112,4 @@ li{
 
 
 }
+	
