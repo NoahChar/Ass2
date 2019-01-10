@@ -1437,7 +1437,6 @@ li{
 /*this section is for viewports smaller than 959px
 this means all hand held devices*/
 @media only screen 
-and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) { /* STYLES GO HERE */ }
 	/*css that applies to every page */
